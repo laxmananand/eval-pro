@@ -36,7 +36,7 @@ const PollCompletion = () => {
 
   return (
     <div className={styles.mainContainer}>
-      {!loading && <Confetti width={width} height={height} />}
+      {/* {!loading && <Confetti width={width} height={height} />} */}
       <div className={styles.thankYouContainer}>
         Thank you for participating in the Poll
       </div>

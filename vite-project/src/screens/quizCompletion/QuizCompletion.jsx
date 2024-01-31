@@ -43,7 +43,7 @@ const QuizCompletion = () => {
 
   return (
     <div className={styles.mainContainer}>
-      {!loading && <Confetti width={width} height={height} />}
+      {/* {!loading && <Confetti width={width} height={height} />} */}
       <div className={styles.thankYouContainer}>
         <div className={styles.headding}>Congrats Quiz is completed</div>
         <img src={TrophyImage} alt="" className={styles.trophyImage} />
