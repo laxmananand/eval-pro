@@ -908,8 +908,8 @@ const Dashboard = () => {
                       className={styles.timerType}
                       style={{ display: "flex" }}
                     >
-                      {/* <div style={{ marginRight: "auto" }}>Timer Type:</div> */}
-                      {/* <label className={styles.modalLabel}>
+                      <div style={{ marginRight: "auto" }}>Timer Type:</div>
+                      <label className={styles.modalLabel}>
                         <input
                           type="radio"
                           name="timerType"
@@ -918,8 +918,8 @@ const Dashboard = () => {
                           onChange={() => handleTimerTypeSelect("5 Sec")}
                         />{" "}
                         5 Sec
-                      </label> */}
-                      {/* <label
+                      </label>
+                      <label
                         className={styles.modalLabel}
                         style={{ marginLeft: ".5rem" }}
                       >
@@ -931,8 +931,8 @@ const Dashboard = () => {
                           onChange={() => handleTimerTypeSelect("10 Sec")}
                         />
                         10 Sec
-                      </label> */}
-                      {/* <label
+                      </label>
+                      <label
                         className={styles.modalLabel}
                         style={{ marginLeft: ".5rem" }}
                       >
@@ -944,7 +944,7 @@ const Dashboard = () => {
                           onChange={() => handleTimerTypeSelect("OFF")}
                         />{" "}
                         OFF
-                      </label> */}
+                      </label>
                     </div>
                   )}
                   <div className={styles.buttonContainer}>
